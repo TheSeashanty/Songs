@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #3586ff;
+    overflow: hidden;
+    
+
+}
+section .wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(wave.png);
+    
+    background-size: 1000px 100px;
+    
+}
+section .wave.wave1{
+    animation: animate 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+
+}
+section .wave.wave2{
+    animation: animate2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+    
+}
+section .wave.wave3{
+    animation: animate 30s linear infinite;
+    z-index: 998;
+    opacity: 0.7;
+    animation-delay: -2s;
+    bottom: 15;
+    
+}
+section .wave.wave4{
+    animation: animate2 30s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 20px;
+    
+}
+@keyframes animate{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+@keyframes animate2{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: -1000px;
+    }
+}
+@keyframes animate3{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+@keyframes animate4{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+
+.box{
+    width: 300px;
+    border-bottom: 20px solid #03a9f4;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    
+}
+.box h2{
+    color: #fff;
+    background: #0319f4;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.box ul{
+    position: relative;
+    background: #fff;
+
+}
+.box ul li{
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .1);
+    transition: transform 0.5;
+    
+
+}
+
+.box ul li:hover{
+    transform: scale(1.1);
+    z-index: 100;
+    background: #25bcff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .2);
+    color: #fff;
+    opacity: 1.;
+
+}
+.box ul li span{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: #25bcff;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 0px;
+    font-size: 12px;
+    font-weight: 600;
+    transform: translateY(-2px);
+    
+    
+
+
+}
+.box ul li:hover span{
+    background: #fff;
+    color: #25bcff;
+    margin: 1%;
+}
+a{
+    text-align: right;
+    color: black;
+    position: right;
+    margin-left: 10px;
+    text-decoration: none;
+}
+/* بهااااااااااااااء*/
+.boxe{
+    width: 300px;
+    border-bottom: 20px solid #03a9f4;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    bottom: 550px;
+    left: 500px;
+    
+}
+.boxe h2{
+    color: #fff;
+    background: #0319f4;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.boxe ul{
+    position: relative;
+    background: #fff;
+
+}
+.boxe ul li{
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .1);
+    transition: transform 0.5;
+    
+
+}
+
+.boxe ul li:hover{
+    transform: scale(1.1);
+    z-index: 100;
+    background: #25bcff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .2);
+    color: #fff;
+    opacity: 1.;
+
+}
+.boxe ul li span{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: #25bcff;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 0px;
+    font-size: 12px;
+    font-weight: 600;
+    transform: translateY(-2px);
+    
+    
+
+
+}
+.boxe ul li:hover span{
+    background: #fff;
+    color: #25bcff;
+    margin: 1%;
+}
+
+/* بهااااااااااااااء*/
+
+.boxo{
+    width: 300px;
+    border-bottom: 20px solid #03a9f4;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    bottom: 1130px;
+    left: 900px;
+    
+}
+.boxo h2{
+    color: #fff;
+    background: #0319f4;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.boxo ul{
+    position: relative;
+    background: #fff;
+
+}
+.boxo ul li{
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .1);
+    transition: transform 0.5;
+    
+
+}
+
+.boxo ul li:hover{
+    transform: scale(1.1);
+    z-index: 100;
+    background: #25bcff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .2);
+    color: #fff;
+    opacity: 1.;
+
+}
+.boxo ul li span{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: #25bcff;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 0px;
+    font-size: 12px;
+    font-weight: 600;
+    transform: translateY(-2px);
+    
+    
+
+
+}
+.boxo ul li:hover span{
+    background: #fff;
+    color: #25bcff;
+    margin: 1%;
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-size: 40px;
+    color: khaki;
+}
+/* bhaaaaaaaaaa */
+
+
+
+
+
+
+
+
+
+
+
